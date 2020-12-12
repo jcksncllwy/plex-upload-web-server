@@ -1,5 +1,4 @@
 import Express from 'express';
-import ZoneFileRequestHandler from './RequestHandlers/ZoneFile';
 
 const PORT = 3000;
 const server = Express();
@@ -14,6 +13,5 @@ server.use(function(req, res, next) {
     next();
   });
 
-server.get('/zonefile', ZoneFileRequestHandler)
 
 server.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
