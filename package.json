@@ -1,5 +1,5 @@
 {
-  "name": "services-registry-server",
+  "name": "plex-upload-web-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
